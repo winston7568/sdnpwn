@@ -1,6 +1,6 @@
 
 import netifaces
-from scapy.all import *
+from kamene.all import *
 from random import randint
 from subprocess import check_output
 from tabulate import tabulate
