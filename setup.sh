@@ -28,6 +28,7 @@ if [ "$res" == "y" ]; then
   apt-get update
   apt-get install python3 python3-pip python3-netifaces python3-scipy git bridge-utils python3-tabulate
   pip3 install scapy-python3
+  pip3 install kamene
   #pip3 install python-openflow
   pip3 install websocket-client
   
