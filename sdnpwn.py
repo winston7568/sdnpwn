@@ -2,7 +2,7 @@
 
 import logging
 logging.getLogger("scapy.runtime").setLevel(logging.ERROR)
-from scapy.all import *
+from kamene.all import *
 import sys
 import netifaces
 import errno
