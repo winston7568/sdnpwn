@@ -2,7 +2,7 @@
 
 import modules.sdnpwn_common as sdnpwn
 
-from scapy.all import *
+from kamene.all import *
 
 from pyof.foundation.basic_types import DPID, UBInt8, UBInt16, UBInt32, UBInt64, Pad, HWAddress
 
