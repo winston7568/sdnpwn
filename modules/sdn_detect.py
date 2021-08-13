@@ -1,6 +1,6 @@
 
 import modules.sdnpwn_common as sdnpwn
-from scapy.all import *
+from kamene.all import *
 import netifaces
 import time
 from scipy import stats
