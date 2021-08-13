@@ -1,4 +1,4 @@
-from scapy.all import *
+from kamene import *
 import sys
 from time import sleep
 import netifaces
