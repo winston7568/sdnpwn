@@ -1,6 +1,6 @@
 
 import signal
-from scapy.all import *
+from kamene.all import *
 import modules.sdnpwn_common as sdnpwn
 import modules.sdnpwn_of_helper as ofHelper
 
