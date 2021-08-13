@@ -1,5 +1,5 @@
 
-from scapy.all import *
+from kamene.all import *
 import sys
 import signal
 from threading import Thread
