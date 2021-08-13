@@ -1,4 +1,4 @@
-from kamene import *
+from kamene.all import *
 import sys
 from time import sleep
 import netifaces
