@@ -63,8 +63,8 @@ def run(params):
   
   lldpTimeTrack = []
   
-  defaultGuiPorts = {"Floodlight & OpenDayLight": 8080, "OpenDayLight (DLUX Standalone)": 9000, "OpenDayLight (DLUX w/t Karaf) & ONOS": 8181 , "RYU" : 8080}
-  defaultGuiURLs = {"Floodlight": "/ui/index.html", "OpenDayLight (DLUX)": "/dlux/index.html", "OpenDayLight (Hydrogen)": "/index.html", "ONOS": "/onos/ui/login.html" ,"RYU":"/index.html"}
+  defaultGuiPorts = {"Floodlight & OpenDayLight": 8080, "OpenDayLight (DLUX Standalone)": 9000, "OpenDayLight (DLUX w/t Karaf) & ONOS": 8181 }
+  defaultGuiURLs = {"Floodlight": "/ui/index.html", "OpenDayLight (DLUX)": "/dlux/index.html", "OpenDayLight (Hydrogen)": "/index.html", "ONOS": "/onos/ui/login.html" }
   guiIdentifiers = {}
   ofdpIntervals = {"Floodlight": 15, "OpenDayLight (Lithium & Helium)": 5, "OpenDayLight (Hydrogen)": 300, "Pox?": 5, "Ryu?": 1, "Beacon": 15, "ONOS": 3}
   
