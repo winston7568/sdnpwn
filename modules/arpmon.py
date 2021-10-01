@@ -1,7 +1,7 @@
 
 import modules.sdnpwn_common as sdnpwn
 
-from scapy.all import *
+from kamene.all import *
 import sys
 import subprocess
 import errno
